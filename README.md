@@ -1,5 +1,19 @@
 FlatCAM Evo (c) 2019 - by Marius Stanciu
 
+Temporary notes - 
+
+* Got it working on Ubuntu 22.04 yay
+* First make sure you have python-virtualenv package installed, we will not want to fuck our python installation
+* Activate the virtual env
+* Install everything in requirements.txt except the package listed optional
+* There was something about a gdal package
+* Install everything (system package) in the setup_ubuntu.sh file except the two qt6 packages
+* Make sure numpy is below version 2
+* Profit
+
+* TODO - Make a SNAP or AppImage
+
+
 Based on FlatCAM: 
 2D Computer-Aided PCB Manufacturing by (c) 2014-2018 Juan Pablo Caram
 =====================================================================
